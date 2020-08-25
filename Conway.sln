@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A03B808-BC60-4D75-85AA-6C12F532A910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E124EBB9-B2D1-49E5-AE7E-E9B23848DE78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D65D9980-C34B-4088-8592-C3368BD94924}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Notes.txt = docs\Notes.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conway.Advanced.Application", "src\Conway.Advanced.Application\Conway.Advanced.Application.csproj", "{7DFE3BDA-3ED5-45CC-B7C1-76C593381BC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conway.Advanced.Domain", "src\Conway.Advanced.Domain\Conway.Advanced.Domain.csproj", "{DAA23BAB-0AF5-48FC-97C2-06EE310AE692}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conway.Application", "src\Conway.Application\Conway.Application.csproj", "{3458F257-838B-4F46-9C50-2D66315034CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conway.Domain", "src\Conway.Domain\Conway.Domain.csproj", "{8FF08019-1165-4A20-A75F-04A96776538B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conway.Presentation", "src\Conway.Presentation\Conway.Presentation.csproj", "{741DAF3E-7485-4F6E-A62E-AF53B3118BF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conway.Advanced.Domain.Tests", "tests\Conway.Advanced.Domain.Tests\Conway.Advanced.Domain.Tests.csproj", "{D3B409FB-DE8E-4F81-9BCA-AD2E3F5A1E44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conway.Application.Tests", "tests\Conway.Application.Tests\Conway.Application.Tests.csproj", "{2FC5C9EA-780F-4027-837C-E667977DDA96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conway.Domain.Tests", "tests\Conway.Domain.Tests\Conway.Domain.Tests.csproj", "{7FA40A34-7AFA-4852-BA5D-FCE6015B1E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DFE3BDA-3ED5-45CC-B7C1-76C593381BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFE3BDA-3ED5-45CC-B7C1-76C593381BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFE3BDA-3ED5-45CC-B7C1-76C593381BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFE3BDA-3ED5-45CC-B7C1-76C593381BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA23BAB-0AF5-48FC-97C2-06EE310AE692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA23BAB-0AF5-48FC-97C2-06EE310AE692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA23BAB-0AF5-48FC-97C2-06EE310AE692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA23BAB-0AF5-48FC-97C2-06EE310AE692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3458F257-838B-4F46-9C50-2D66315034CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3458F257-838B-4F46-9C50-2D66315034CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3458F257-838B-4F46-9C50-2D66315034CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3458F257-838B-4F46-9C50-2D66315034CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF08019-1165-4A20-A75F-04A96776538B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF08019-1165-4A20-A75F-04A96776538B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF08019-1165-4A20-A75F-04A96776538B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF08019-1165-4A20-A75F-04A96776538B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741DAF3E-7485-4F6E-A62E-AF53B3118BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741DAF3E-7485-4F6E-A62E-AF53B3118BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741DAF3E-7485-4F6E-A62E-AF53B3118BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741DAF3E-7485-4F6E-A62E-AF53B3118BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B409FB-DE8E-4F81-9BCA-AD2E3F5A1E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B409FB-DE8E-4F81-9BCA-AD2E3F5A1E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B409FB-DE8E-4F81-9BCA-AD2E3F5A1E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B409FB-DE8E-4F81-9BCA-AD2E3F5A1E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC5C9EA-780F-4027-837C-E667977DDA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC5C9EA-780F-4027-837C-E667977DDA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC5C9EA-780F-4027-837C-E667977DDA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC5C9EA-780F-4027-837C-E667977DDA96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA40A34-7AFA-4852-BA5D-FCE6015B1E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA40A34-7AFA-4852-BA5D-FCE6015B1E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA40A34-7AFA-4852-BA5D-FCE6015B1E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA40A34-7AFA-4852-BA5D-FCE6015B1E95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DFE3BDA-3ED5-45CC-B7C1-76C593381BC7} = {6A03B808-BC60-4D75-85AA-6C12F532A910}
+		{DAA23BAB-0AF5-48FC-97C2-06EE310AE692} = {6A03B808-BC60-4D75-85AA-6C12F532A910}
+		{3458F257-838B-4F46-9C50-2D66315034CF} = {6A03B808-BC60-4D75-85AA-6C12F532A910}
+		{8FF08019-1165-4A20-A75F-04A96776538B} = {6A03B808-BC60-4D75-85AA-6C12F532A910}
+		{741DAF3E-7485-4F6E-A62E-AF53B3118BF8} = {6A03B808-BC60-4D75-85AA-6C12F532A910}
+		{D3B409FB-DE8E-4F81-9BCA-AD2E3F5A1E44} = {E124EBB9-B2D1-49E5-AE7E-E9B23848DE78}
+		{2FC5C9EA-780F-4027-837C-E667977DDA96} = {E124EBB9-B2D1-49E5-AE7E-E9B23848DE78}
+		{7FA40A34-7AFA-4852-BA5D-FCE6015B1E95} = {E124EBB9-B2D1-49E5-AE7E-E9B23848DE78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8EE7B1D-CA69-49A5-B6C4-EC021F74A13F}
+	EndGlobalSection
+EndGlobal

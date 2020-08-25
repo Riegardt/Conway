@@ -1,0 +1,21 @@
+For the purpose of this implementation, cells on the edges consider space beyond the board as
+“always dead” cells. For example, board size 3 will generate a 5x5 grid that contains a
+border and 3x3 content of random cells.
+
+In order to conserve computational power and memory, I took the “egocentric approach”
+together with the strategy of “one array plus two line buffers”, as mentioned on the
+Wikipedia page.
+
+- If you specify no size, the program will exit.
+- If you specify no generation count, it will continue until keypress.
+
+------------------------------------------------------------------------------------
+
+I was having fun with this and I wanted to demonstrate extendability and some abstraction,
+while still maintaining the simplicity of the original project. So there is some extra code
+in the "Advanced Source" folder - the only reference to it from the main solution is one line
+in Program.cs
+
+All it does is include some preset patterns instead of random cells. To call them, set
+the UseAdvanced constant in Program.cs to "true". You can then load the presets when
+you specify board sizes -1, -2, -3 and -4.

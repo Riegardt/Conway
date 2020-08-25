@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Conway.Advanced.Domain\Conway.Advanced.Domain.csproj" />
+    <ProjectReference Include="..\Conway.Application\Conway.Application.csproj" />
+  </ItemGroup>
+
+</Project>
